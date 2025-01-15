@@ -229,4 +229,5 @@ console.log(charactersNames.length);
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
   let randomCharacter = Math.floor(Math.random() * starWarsCharacters.length);
-  console.log(`The ${starWarsCharacters[randomCharacter].name} is ${starWarsCharacters[randomCharacter].height} cm tall and has ${starWarsCharacters[randomCharacter].mass} kg`);
+  console.log(`The ${starWarsCharacters[randomCharacter].name} is ${starWarsCharacters[randomCharacter].height} 
+    cm tall and has ${starWarsCharacters[randomCharacter].mass} kg`);
